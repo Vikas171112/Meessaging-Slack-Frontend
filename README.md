@@ -1,5 +1,47 @@
-# React + Vite
+# 💬 Messaging Slack Frontend
 
-ShadCN Setup: [Link](https://ui.shadcn.com/docs/installation/vite)
+A modern **Slack-like Messaging Application** frontend built with **React + Tailwind CSS + Context API + Socket.io**.  
+This project provides a real-time messaging experience with channel-based communication and direct messaging — designed with clean UI components and scalability in mind.
 
-Atom Design : [Link](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97)
+---
+
+## 🚀 Features
+
+- 🔑 **Authentication (Signup/Login UI)**
+- 💬 **Real-time Messaging** (Socket.io integration)
+- 📨 **Direct Messaging (DMs)** with floating chat UI
+- 📡 **Channel-based Conversations**
+- 🎨 **Responsive UI** with **Tailwind CSS**
+- ⚡ **State Management** using **Context API**
+- 🖼️ **Re-usable Components** with ShadCN UI
+- 🔔 **Toast Notifications** for feedback
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React 18**
+- 🎨 **Tailwind CSS**
+- 🧩 **ShadCN UI**
+- 🌐 **Socket.io (Client)**
+- 🔧 **Context API** for state management
+- 📦 **Vite** for fast bundling
+
+---
+
+## 📂 Project Structure
+
+```bash
+Meessaging-Slack-Frontend/
+├── src/
+│   ├── components/
+│   ├── contexts/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── package.json
+└── README.md
+```
