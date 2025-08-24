@@ -1,19 +1,21 @@
-import combineContext from '@/utils/combineContext';
+import combineContext from "@/utils/combineContext";
 
-import { AuthContextProvider } from './AuthContext';
-import { ChannelMessagesProvider } from './CHannelMessages';
-import { CreateChannelContextProvider } from './CreateChannelContext';
-import { CreateWorkspaceContextProvider } from './CreateWorkspaceContext';
-import { SocketContextProvider } from './SocketContext';
-import { WorkspaceContextProvider } from './WorkspaceContext';
-import { WorkspacePreferencesModalContextProvider } from './WorkspacePreferencesModalContext';
+import { AuthContextProvider } from "./AuthContext";
+import { ChannelMessagesProvider } from "./CHannelMessages";
+import { CreateChannelContextProvider } from "./CreateChannelContext";
+import { CreateWorkspaceContextProvider } from "./CreateWorkspaceContext";
+import { SocketContextProvider } from "./SocketContext";
+import { WorkspaceContextProvider } from "./WorkspaceContext";
+import { WorkspacePreferencesModalContextProvider } from "./WorkspacePreferencesModalContext";
+import { ChatContextProvider } from "./ChatContext";
 
 export const AppContextProvider = combineContext(
-    ChannelMessagesProvider,
-    SocketContextProvider,
-    AuthContextProvider,
-    WorkspaceContextProvider,
-    CreateWorkspaceContextProvider,
-    WorkspacePreferencesModalContextProvider,
-    CreateChannelContextProvider
-); 
+  ChannelMessagesProvider,
+  SocketContextProvider,
+  AuthContextProvider,
+  WorkspaceContextProvider,
+  CreateWorkspaceContextProvider,
+  WorkspacePreferencesModalContextProvider,
+  CreateChannelContextProvider,
+  ChatContextProvider
+);
