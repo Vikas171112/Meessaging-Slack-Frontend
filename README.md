@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💬 Messaging Slack Frontend
 
 A modern **Slack-like Messaging Application** frontend built with **React + Tailwind CSS + Context API + Socket.io**.  
@@ -46,6 +45,5 @@ Meessaging-Slack-Frontend/
 ├── package.json
 └── README.md
 ```
-=======
 
->>>>>>> acf498eddf12d420d559d179797b16a5fe965784
+=======

@@ -12,10 +12,12 @@ import { JoinPage } from "./pages/Workspace/JoinPage";
 import { WorkspaceLayout } from "./pages/Workspace/Layout";
 import { Payments } from "./pages/Payments/Payments";
 import NoChannelSelectedUi from "./components/organisms/Workspace/NoChannelSelected";
+import LandingPage from "./pages/Home/LandingPage";
 
 export const AppRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<LandingPage />} />
       <Route
         path="/auth/signup"
         element={
