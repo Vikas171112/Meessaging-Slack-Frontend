@@ -17,9 +17,9 @@ import LandingPage from "./pages/Home/LandingPage";
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
+      {/* <Route path="/" element={<LandingPage />} /> */}
       <Route
-        path="/auth/signup"
+        path="/"
         element={
           <Auth>
             <SignupContainer />
